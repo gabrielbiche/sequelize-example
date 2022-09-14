@@ -1,0 +1,27 @@
+{
+  "name": "sequelize_example",
+  "version": "1.0.0",
+  "description": "Simple template using sequelize and ES6",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel da Silva Bichê",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.21.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.19.0",
+    "@babel/register": "^7.18.9",
+    "nodemon": "^2.0.19",
+    "sequelize-cli": "^6.4.1"
+  }
+}
