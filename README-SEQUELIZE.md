@@ -9,7 +9,7 @@
 
 **Observação**
 
-_Para exemplificar a utilização do Sequelize com JavaScript ES6 será necessário abordar igualmente a instalação do Babel e bibliotecas complementares a configuração do ambiente como um todo. Sendo assim pretendo abordar tais bibliotecas complementares o mínimo possível, como a finalidade de não nos dispersarmos do assunto principal._
+_Para exemplificar a utilização do Sequelize com JavaScript ES6 será necessário abordar igualmente a instalação do Babel e bibliotecas complementares a configuração do ambiente como um todo. Sendo assim pretendo abordar tais bibliotecas complementares o mínimo possível, com a finalidade de não nos dispersarmos do assunto principal._
 
 
 ## Sumário
