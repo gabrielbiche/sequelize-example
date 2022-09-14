@@ -22,6 +22,8 @@ Para a criação do projeto foi utilizado o padrão arquitetural de software MVC
 |   |   ├── /config
 |   |   ├── /migrations
 |   |   ├── /seeders
+|   ├── /helpers
+|   ├── /middleware
 |   ├── /models
 |   ├── /routes
 
