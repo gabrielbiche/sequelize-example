@@ -1,20 +1,20 @@
-## O sistema
-Projeto destinado ao estudo do sequelize com JavaScript ES6, **vide Readme-sequelize.md na raiz do projeto**.
+## The system
+Project aimed at studying sequelize with JavaScript ES6, **see Readme-sequelize.md in the project root**.
 
 
-### Descrição
-O projeto consiste em um CRUD básico de usuários. Nele tu poderá cadastrar, listar, alterar ou remover usuários.
+### Description
+The project consists of a basic user CRUD. In it you can register, list, change or remove users.
 
 
-### Tecnologias utilizadas
-RESTful usando Node.js, Express, Mysql, Sequelize.
+### Technologies used
+RESTful using Node.js, Express, Mysql, Sequelize.
 
 
-### Arquitetura
-Para a criação do projeto foi utilizado o padrão arquitetural de software MVC.
+### Architecture
+For the creation of the project, the architectural pattern of MVC software was used.
 
 
-### Estrutura de diretórios
+### Directory structure
 ```
 ├── /src
 |   ├── /controllers
@@ -28,37 +28,35 @@ Para a criação do projeto foi utilizado o padrão arquitetural de software MVC
 |   ├── /routes
 
 ```
+### Postman collection for API consumption at project root
 
-### Coleção Postman para consumo da API na raiz do projeto 
+### Follow the steps below to run the project
 
-### Siga os passos abaixo para executar o projeto
+1. Create a database
 
-1. Crie um banco de dados
+2. Rename the project root file called .env.example to .env and in this define a port for the server and its access data to the database
 
-2. Renomeie o arquivo da raiz do projeto chamado .env.example para .env e neste defina uma porta para o servidor e seus dados de acesso ao banco de dados
-
-3. Inicie as dependências do projeto com o seguinte comando
+3. Start project dependencies with the following command
 ```
 npm install
 ```
 
-4. Crie as tabelas do banco de dados executando as migrações com o seguinte comando
+4. Create the database tables by running the migrations with the following command
 
 ```
 npx sequelize-cli db:migrate
 ```
 
-5. OPICIONAL) Caso queira você pode popular o banco de dados com as seeds fornecidas, para isto execute o seguinte comando
+5. OPTIONAL) If you want you can populate the database with the seeds provided, for this run the following command
 
 ```
 npx sequelize-cli db:seed:all
 ```
 
-6. Execute o seguinte comando para iniciar o servidor
-
+6. Run the following command to start the server
 ```
-npm run dev 
+npm run dev
 ```
 
-### Modelo relacional do banco de dados
+### Database relational model
 ![Captura de tela de 2022-09-14 14-48-05](https://user-images.githubusercontent.com/63760217/190226415-18dfdefb-5a5a-4729-a286-e9d64e4ed8a2.png) 
